@@ -288,7 +288,7 @@ x
 
     <?php
 // Establish a connection to the database
-$mysqli = new mysqli("localhost", "root", "", "community_management");
+$mysqli = new mysqli("database-2.c94k8mya6u71.eu-north-1.rds.amazonaws.com", "root", "YrXax6MQbxR69SZvoB2x", "newschema");
 
 // Check the connection
 if ($mysqli->connect_error) {
